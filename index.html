@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Full Stack developer, here you will find information about the projects I have done."
+    />
+    <meta
+      property="og:description"
+      content="Full Stack developer, here you will find information about the projects I have done. "
+    />
+    <meta property="og:title" content="Tomas Belli | Developer Web Jr." />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Tomas Belli | Developer Web Jr"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Tomas Belli / Developer Web Jr</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">T B</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Inicio</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">Acerca de mi</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portafolio</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/webp" srcset="./assets/profile.webp" />
+        <img class="home__profile" alt="picture profile" />
+      </picture>
+      <div class="home__description">
+        <h1 class="home__title">Tomás Luis Belli</h1>
+        <span class="home__title--secondary">Developer Web Jr</span>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">Acerca de mi</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>Desarrollador web</h2>
+            <p>
+              Soy desarrollador web jr, estudiante de analista de sistemas, estoy en constante aprendizaje, me considero un autodidacta que disfruta de ver a los proyectos hacerse una realidad.
+            </p>
+
+            <p>
+              Tengo 26 años, mis pasatiempos son la musica y programar. Mis intereses son conocer mas del frontend y empezar proyectos con python. Estoy en la busqueda de mi primera oportunidad laboral.
+            </p>
+            <a
+              class="button--cta"
+              href="./assets/Tomás Luis Belli CV.pdf"
+              download="Tomás Luis Belli CV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Descargar CV
+            </a>
+          </div>
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>
+                Habilidades y Tecnologías</h2>
+            </div>
+            <div class="skill__item">
+              <img src="/assets/html.png" alt="Html icon"/>
+              <div class="skill__name">HTML</div>
+            </div>
+            <div class="skill__item">
+              <img src="/assets/css.png" alt="Css icon"/>
+              <div class="skill__name">CSS</div>
+            </div>
+            <div class="skill__item">
+              <img src="/assets/js.png" alt="Js icon"/>
+              <div class="skill__name">JavaScript</div>
+            </div>
+            <div class="skill__item">
+              <img src="/assets/boo.png" alt="Boo icon"/>
+              <div class="skill__name">Bootstrap </div>
+            </div>
+            <div class="skill__item">
+              <img src="/assets/git.png" alt="Git icon"/>
+              <div class="skill__name">Git Hub </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portafolio</h2>
+        <h3 class="section__subtitle">Aca pueden ver los proyectos en los que he trabajado.</h3>
+        <div class="portfolio__grid">
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Calculadora.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Calculadora</h3>
+              <p class="portfolio__description--text">
+                Web Application: CSS 68.8% / HTML 31.2%.
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://calculadora-bay-nine.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/Tomy2106/Calculadora"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Clima.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Weather App</h3>
+              <p class="portfolio__description--text">
+                Web Application: HTML 64.6% / CSS 35.4%
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://weather-app-one-indol.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/Tomy2106/Weather-App"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Tetris.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Tetris</h3>
+              <p class="portfolio__description--text">
+                Web Application: JavaScript 89.1% / HTML 7.6% / CSS 3.3%
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://tetris-opal.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/Tomy2106/Tetris"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Traductor.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Traductor</h3>
+              <p class="portfolio__description--text">
+                Web Application: JavaScript 52.6% / CSS 32.9% / HTML 14.5%
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://traductor-three.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/Tomy2106/traductor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Pagina1.jpg" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Primera Pagina Web</h3>
+              <p class="portfolio__description--text">
+                Landing Page: HTML 90% / CSS 10%
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://tomy2106.github.io/Pagina1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/Tomy2106/Pagina1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Pagina2.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Segunda Pagina Web / Compra de tickets</h3>
+              <p class="portfolio__description--text">
+                Landing Page: HTML 86.3% / JavaScript 13.7%
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://tomy2106.github.io/Pagina2/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/Tomy2106/Pagina2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contacto</h2>
+        <h3 class="section__subtitle">
+          Contacta conmigo si quieres que trabajemos.
+        </h3>
+        <div class="contact__grid">
+          <a
+            href="tomaskpo010@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+              <p>Escribeme aqui <br> tomaskpo010@gmail.com </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Tomy2106"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+              <p>Sigueme <br> Tomy2106 </p>
+            </div>
+          </a>
+          <a
+            href="https://www.instagram.com/tomybelli/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-instagram"></i>
+              <p>Sigueme</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tomas-belli/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+              <p>Contáctame
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2023. <a href="#">@tomy2106</a> <br />
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+</html>
